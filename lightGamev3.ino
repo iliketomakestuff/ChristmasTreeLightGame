@@ -215,7 +215,7 @@ void stepGame(){
               case 9:
               case 10:
               case 11:
-                leds[i][j] = CRGB::Green;
+                leds[i][j] = CRGB::Green;  //I haven't seen anyone get past this point.  It's basically impossible
                 break;
               case 12:
               case 13:
@@ -326,8 +326,8 @@ void dropPiece() {
     waitForDropIncrease = 0;
     numToDrop++; 
   }
-  if( numToDrop >5){
-    numToDrop = 5;
+  if( numToDrop >NUM_STRIPS-2){
+    numToDrop = NUM_STRIPS-2; //Always leave at least 2 positions open ofr the player
   }
   for( int z=0;z<numToDrop;z++){
     int ranX = random(0, columns);
