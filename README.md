@@ -6,5 +6,5 @@
 *  This is PROTOTYPE code, not meant to be fully optimized or even correct.
 *  I tried to leave comments for a while, then ran out of time.
 *  
-*  We cannot provide any support for this code, but feel free to use it as a 
+*  We cannot provide any support for this code, but feel free to use it as is 
 */
